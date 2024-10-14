@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'tinaja_bot'
+
+tinaja_bot = TinajaBot.new token: ARGV[0]
+tinaja_bot.run
