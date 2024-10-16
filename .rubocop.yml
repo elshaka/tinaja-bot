@@ -4,5 +4,4 @@ require:
 AllCops:
   TargetRubyVersion: 3.3
   NewCops: enable
-Style/Documentation:
-  Enabled: false
+  SuggestExtensions: false
