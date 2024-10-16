@@ -9,5 +9,5 @@ gem build tinaja-bot.gemspec && gem install ./tinaja-bot-*.gem
 
 ## Usage
 ```sh
-tinaja-bot [BOT_TOKEN]
+tinaja-bot [BOT_TOKEN] [CLIENT_ID]
 ```
