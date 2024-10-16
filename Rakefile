@@ -13,6 +13,6 @@ task :run do
   Dotenv.load
   require_relative 'lib/tinaja_bot'
 
-  bot = TinajaBot.new token: ENV.fetch('TOKEN', nil), client_id: ENV.fetch('CLIENT_ID', nil)
+  bot = TinajaBot::Bot.new token: ENV.fetch('TOKEN', nil), client_id: ENV.fetch('CLIENT_ID', nil)
   bot.run
 end
