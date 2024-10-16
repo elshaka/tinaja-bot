@@ -21,5 +21,6 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '~> 3.3'
   s.add_dependency 'discordrb', '~> 3.5'
+  s.add_dependency 'httparty', '~> 0.22.0'
   s.metadata['rubygems_mfa_required'] = 'true'
 end
