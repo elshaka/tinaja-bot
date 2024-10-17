@@ -2,7 +2,7 @@
 
 A bot for TINAJA Ingeniería Discord server.
 
-## Install
+## Install dependencies
 ```sh
 bundle install
 ```
@@ -17,7 +17,7 @@ rake run
 You can build a docker image of the project by running:
 
 ```
-docker build . -t tinaja-bot
+docker build . -t tinaja-bot:latest
 ```
 
 Then run it like this:
