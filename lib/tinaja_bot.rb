@@ -18,7 +18,7 @@ module TinajaBot
     private
 
     def load_commands
-      Dir[Pathname(__dir__) + Pathname('tinaja-bot/commands/*.rb')].each do |file|
+      Dir[File.join(__dir__, 'tinaja-bot', 'commands', '*.rb')].each do |file|
         require_relative file
 
         command = File.basename(file, '.rb').to_sym
